@@ -1,90 +1,127 @@
-# Welcome to GitHub
+# Gametrak Nr 2 
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
-
-## Repositories
-
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
-
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
-
-## Describe your project
-
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
-
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
-
-## Your first website
-
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
-
-[Learn more about GitHub Pages](https://pages.github.com/)
-
-## Rename this repository to publish your site
-
-We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
-
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
-
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
-
-Under the **Repository Name** heading, type: `username.github.io`, where username is your username on GitHub. Then click **Rename**—and that’s it. When you’re done, click your repository name or browser’s back button to return to this page.
-
-<img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
-
-Once you click **Rename**, your website will automatically be published at: https://your-username.github.io/. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
-
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
-
-## Making your first edit
-
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
+## Vom Golf-Playstation-controller zum Midicontroller
 
 
-Delete this placeholder line:
+### Einkaufsliste:                                     
 
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
-
-Then, paste the template to line 15 and fill in the blanks.
-
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
-
-
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
+Item                                       | Preis (EUR)
+-------------------------------------------|:-------:
+Gametrak version 2                          | 20 - 30
+Experimentierboard                         | 7
+Teensy 3.6                                 | 34 
+Pins männlich und weiblich, je 2 Leisten   | 5
+Kabel                                      | 3
+Schrumpfschlauch                           | 0,10             
 
 
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
+### Equipment:
 
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
+* Lötkolben
+* Lötzinn
+* Platinenhalter/Schraubstock
+* Abisolierzange
+* Zange
+* Schraubenzieher
+* Feuerzeug
+* Multimeter
+* USB Kabel & Computer
 
-:tada: You just made your first commit! :tada:
+### Bausession:
 
-## Extra Credit: Keep on building!
+Start 19:00 Ende 21:15
 
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
+Der Teensy wurde ohne Pins geliefert, deshalb werden als erstes die männlichen Pins so auf das Experimentierboard gesteckt, sodass man den Teensy auf die Pins stecken kann und nun
+die ersten 4 äußeren Pins an den Teensy löten kann. 
+Dann den Teensy mit den Pins orgentlich einspannen und alle 
+* männlichen Pins an den Teensy löten
 
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
+![images](images/IMG_0004.JPG)
+(Teensy ohne Pins, Experimentierboard mit männlichen Pins)
 
-![octocat](./images/create-octocat.png)
+![images](images/IMG_0006.JPG)
+(Lötkolben und Teensy mit männlichen Pins angelötet)
 
-## Everything you need to know about GitHub
+![images](images/IMG_0007.JPG)
+(alle Pins sind sauber am Teensy angelötet, auch unter der Lupe sind keine falschen Brücken)
 
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+
+* Gamtrak aufschrauben
+
+![images](images/IMG_0009.JPG)
+(Gametrak Version 2, noch ganz)
+
+![images](images/IMG_0010.JPG)
+(aufgeschraubt)
+
+
+* die 5 Kabel, die jeweils aus den beiden Potentiometern (Spule und Schnur vom Gamtrak) kommen, von der Gametrak eigenen Platine abknipsen
+
+![images](images/IMG_0012.JPG)
+
+Dann hat man folgende, lose Bauteile: 
+* Beide Spulen inklusive Schnur und Potentiometer mit Kabeln 
+
+![images](images/IMG_0015.JPG)
+
+* die 2x 5 abgeknipsten Kabel mit der Abisolierzange an den Enden ca 3mm abisolieren,
+
+![images](images/IMG_0016.JPG)
+
+* dann jedes Ende mit dem Lötkolben einzeln mit Lötzinn verzinnen
+
+* 10x 1cm Schrumpfschlauchstücke abschneiden, jedes Schrumpfschlauchstück über ein Kabel ziehen
+
+![images](images/IMG_0021.JPG)
+
+* jedes Kabelende einzeln mit einem Ende eines weiblichen Pins verlöten
+
+![images](images/IMG_0019.JPG)
+
+* die Schrumpfschlauchstücke über die gelöteten Stellen ziehen, den Schrumpfschlauch mit dem Feuerzeug schrumpfen lassen
+
+![images](images/IMG_0022.JPG)
+![images](images/IMG_0023.JPG)
+![images](images/IMG_0020.JPG)
+
+* Das Bauteil mit Spule und Potentiometer mit den fertig angelöteten weiblichen Pins sieht dann so aus:
+
+![images](images/IMG_0024.JPG)
+
+Hier noch das Bauteil Spule und Potentiometer des Gametraks in Nahaufnahme:
+
+![images](images/IMG_0025.JPG)
+
+* Da die Farbbelegung der Kabel irreführend/ungewöhnlich ist, mit dem Multimeter den Widerstand messen, um herauszufinden, wie die Kabel tatsächlich belegt sind, also welche Kabel mit + - belegt sind, und welche die Sensorenkabel sind.
+(Sensorenkabel=Signalleitungen lesen den variablen Widerstand aus den beiden Potentiometern aus, d.h. wie weit die Schnur des Gametraks herausgezogen ist, und in welchem Winkel sie steht.)
+
+* Die Widerstandsmessungen haben folgendes ergeben: Die 2x 5 Kabel, die jeweils mit einer Spule verbunden sind, sind in diesem Gamtrak folgendermaßen belegt: Die beiden äußeren Kabel (hier braun und grün) sind für Plus und Minus, die 3 inneren Kabel (hier rot, orange,gelb) sind die Signalleitungen der drei Potis.
+
+* Nun den Teensy mit den angelöteten männlichen Pins in die weiblichen Pins und dadurch ins Experimentierboard stecken, daneben noch extra männliche Pins stecken, um die Kabel vom Teensy zum Board zu verbinden. (Dafür sich vorher den Teensz Plan für dei Pinbelegungen anschauen, wie man am besten die Signalleitungen und die Plus und Minus Kabel legen möchte.)
+
+![images](images/IMG_0026.JPG)
+![images](images/IMG_0030.JPG)
+
+In diesem Fall wird der Analog GND (GND= Ground = Minus) mit 2 männlichen Steckern auf dem Board verdoppelt, sowie auch das Plus (hier 3.3V) mit 2 Steckern auf dem Board verdoppelt wird.
+Um die Sensorenkabel zu verbinden werden hier die Belegungen der Analogpins 16=A2, 17=A3 und 18=A4 für die erste Spule mit Potentiometer gewählt, und die Belegungen 20=A6, 21=A7 und 22=A8. 
+Natürlich können die Belegungen auch anders gewählt werden, in diesem Fall ist die Belegung aber schön kompakt und man muss relativ wenige Kabel löten. 
+
+Hier nochmal der ganze Teensy Schaltplan:
+
+![images](images/Teensy.jpeg)
+
+* die Kabel vom Potentiometer im Experimentierboard mit dem Teensy verbinden: Jeweils die Plus und Minus Kabel mit dem GND und 3.3 V vom Teensy durch Stecken verbinden, und die jeweils 3 Sensorenkabel mit jeweils 3 Analoge-Pins vom Teensy durch Stecken verbinden. (Z.B. A0-A6, Nr 14-20 am Teensy).
+
+![images](images/IMG_0027.JPG)
+![images](images/IMG_0029.JPG)
+(Diese gesteckte Version kann später natürlich gelötet werden oder durch stabiliere Stecksystheme ersetzt werden)
+
+Jetzt nur noch mit dem Computer verbinden und schauen ob es schon funktioniert,
+das heißt:
+* mit dem USB Kabel den Teensy mit dem Computer verbinden und entweder einen beliebigen Open-Source Synthesizer starten (z.B. Helm), oder
+* in der Software (die extra dafür geschreiben wurde- [TeensySourcecode](./TeensySourcecode/)Ordner) die neuen Belegungen des Teensy eintragen, im Arduino Programm im callibration mode die Potentiometer neu kallibrieren
+
+![images](images/IMG_0031.JPG)
+
+* [PureData](https://puredata.info/) auf dem Rechner starten und den neuen Gametrak2.0- Midicontroller mit den Patches von PureData testen
+* TADAAA es funktioniert, jetzt nur noch eine Box für den Gametrak bauen und viel Spaß mit dem neuen Midicontroller! 
